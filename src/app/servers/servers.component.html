@@ -35,9 +35,13 @@
   Add New Server
 </button>
 
-<p class="my-8">
+<!-- <p class="my-8">
     <span class="font-bold mr-2">Server Creation Status:</span
     >{{ serverCreationStatus }}
+  </p> -->
+
+  <p *ngIf="serverCreated" class="my-8">
+    Server created with serverName {{ serverName }}
   </p>
 
 <app-server></app-server>
