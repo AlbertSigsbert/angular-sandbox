@@ -11,6 +11,7 @@ import { DataBindingPracticeComponent } from './data-binding-practice/data-bindi
 import {  DirectivePracticeComponent } from './directives-practice/directives-practice.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
+import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BasicHighlightDirective } from './basic-highlight/basic-highlight.direc
     DataBindingPracticeComponent,
     DirectivePracticeComponent,
     DirectivesComponent,
-    BasicHighlightDirective
+    BasicHighlightDirective,
+    BetterHighlightDirective
   ],
   imports: [
     BrowserModule,
