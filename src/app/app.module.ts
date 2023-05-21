@@ -9,6 +9,8 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { DataBindingPracticeComponent } from './data-binding-practice/data-binding-practice.component';
 import {  DirectivePracticeComponent } from './directives-practice/directives-practice.component';
+import { DirectivesComponent } from './directives/directives.component';
+import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import {  DirectivePracticeComponent } from './directives-practice/directives-pr
     WarningAlertComponent,
     SuccessAlertComponent,
     DataBindingPracticeComponent,
-    DirectivePracticeComponent
+    DirectivePracticeComponent,
+    DirectivesComponent,
+    BasicHighlightDirective
   ],
   imports: [
     BrowserModule,
